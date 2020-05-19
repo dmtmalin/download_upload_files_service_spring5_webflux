@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 
 import java.nio.channels.AsynchronousFileChannel;
 
-public abstract class FileClosableChanel {
+public abstract class FileClosableChanel implements ClosableChanel {
     private final static Logger logger = LoggerFactory.getLogger(FileClosableChanel.class);
 
-    protected void close(AsynchronousFileChannel channel) {
+    public void close(AsynchronousFileChannel channel) {
         if (channel != null) {
             try {
                 channel.close();
