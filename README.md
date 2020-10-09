@@ -8,7 +8,7 @@
 
 `java -jar target/attach-app.jar`
 
-# Use
+# Usage
 
 Import [insomnia REST](https://insomnia.rest/) file (insomnia.json)
 
