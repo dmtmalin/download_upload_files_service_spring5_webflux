@@ -19,7 +19,7 @@
         <coomons.io.version>1.3.2</coomons.io.version>
         <commonst.text.version>1.8</commonst.text.version>
         <reactor.extra.version>3.3.3.RELEASE</reactor.extra.version>
-        <apache.tika.version>1.24</apache.tika.version>
+        <apache.tika.version>1.28.3</apache.tika.version>
     </properties>
 
     <dependencies>
